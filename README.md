@@ -2,9 +2,11 @@
 
 📁 Inhoud
 ---
-- data/ 
-- scripts/ 
-- resultaten/ 
+★  data/ 
+
+★ scripts/ 
+
+★ resultaten/ 
 
 Inleiding +- 200 woorden 
 ---
