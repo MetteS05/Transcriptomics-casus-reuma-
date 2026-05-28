@@ -8,6 +8,8 @@
 
 ★ `resultaten/`
 
+★ `referenties/`
+
 📖 Inleiding +- 200 woorden 
 ---
 🧬 Methode +- 200 woorden 
