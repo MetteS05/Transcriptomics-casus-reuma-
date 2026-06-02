@@ -1,5 +1,5 @@
-# **Transcriptomics analyse Reuma Artritis** 
-<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/626c0cff-2b48-4368-9c76-de970e1567de" />
+ <img width="1699" height="926" alt="image" src="https://github.com/user-attachments/assets/9fd35771-4cc1-4ebd-9f39-6909a61d93e2" />
+
 
 📁 Inhoud
 ---
