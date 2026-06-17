@@ -22,7 +22,7 @@ Reumatoïde Artritis (RA) is een auto-immuunziekte die gekenmerkt wordt door ont
 **Figuur 1: workflow voor de Transcriptomics analyse van de genen en pathways bij RA patiënten en controle groep.** 
 
 
-Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief. Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. 
+Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief. Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. Met behulp van de package Rsubread (versie 2.24.0) is hierna een count matrix gemaakt, om te achterhalen hoeveel reads er per gen zijn gemapt. Aan de hand van deze matrix is de differentiële expressie-analyse uitgevoerd met de package DESeq2 (versie 1.50.2). Tijdens de analyse werd de genexpressie tussen de vrouwen met RA en de controle groep met elkaar vergeleken, om te identificeren welke genen een significant verhoogde of verlaagde expressie toonden. 
  
 📊 Resultaten 
 ---
