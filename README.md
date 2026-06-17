@@ -17,7 +17,10 @@ Reumatoïde Artritis (RA) is een auto-immuunziekte die gekenmerkt wordt door ont
 
 🧬 Methode
 ---
-<img width="750" height="300" alt="image" src="https://github.com/user-attachments/assets/2b2f14da-a67f-4075-a643-077ff2d002c3" />
+<img width="750" height="350" alt="image" src="https://github.com/user-attachments/assets/2b2f14da-a67f-4075-a643-077ff2d002c3" /> 
+
+**Figuur 1: workflow voor de Transcriptomics analyse van de genen en pathways bij RA patiënten en controle groep.** 
+
 
 Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief. Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. 
  
