@@ -17,7 +17,7 @@ Reumatoïde Artritis (RA) is een auto-immuunziekte die gekenmerkt wordt door ont
 
 🧬 Methode
 ---
-Om te onderzoeken of er een verschil bestaat in genexpressie bij mensen met RA en gezonde mensen is er een biopt uit het gewrichtsslijmvlies van 4 mensen met RA en 4 gezonde mensen (controle groep). 
+Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief. Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. 
  
 📊 Resultaten 
 ---
