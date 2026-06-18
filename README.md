@@ -21,8 +21,8 @@ Reumatoïde Artritis (RA) is een auto-immuunziekte die gekenmerkt wordt door ont
   <img width="750" height="350" alt="image" src="https://github.com/user-attachments/assets/2b2f14da-a67f-4075-a643-077ff2d002c3" />
 </p>
 
- 
- **Figuur 1: workflow voor de Transcriptomics analyse van de genen en pathways bij RA patiënten en controle groep.** 
+ <p align="center">
+ *Figuur 1: workflow voor de Transcriptomics analyse van de genen en pathways bij RA patiënten en controle groep.* 
 
 
 Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief, de data zijn afkomstig uit het onderzoek van Platzer et al. (2019). Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. Met behulp van de package Rsubread (versie 2.24.0) is hierna een count matrix gemaakt, om te achterhalen hoeveel reads er per gen zijn gemapt. Aan de hand van deze matrix is de differentiële expressie-analyse uitgevoerd met de package DESeq2 (versie 1.50.2). Tijdens de analyse werd de genexpressie tussen de vrouwen met RA en de controle groep met elkaar vergeleken, om te identificeren welke genen een significant verhoogde of verlaagde expressie toonden. Om dit verschil te visualiseren is er een Volcano plot gemaakt met behulp van de package EnhancedVolcano (versie 1.28.2). Voor het in kaart brengen van de biologische processen die betrokken zijn bij de genen die significant een veranderde expressie toonde is er een Gene Ontology (GO)-analyse uitgevoerd. Hiervoor is gebruik gemaakt van de packages clusterProfiler (versie 4.18.4 ). Als laatste is de KEGG-pathway analyse gebruikt om de significant meer aanwezige pathways te identificeren met behulp van de package Pathview (versie 1.50.0)
@@ -43,10 +43,13 @@ Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en contro
 
 ---
 #### *GO Analyse* 
-In [Figuur 2](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot van de Gene Ontology (GO) analyse van de 4.572 genen die significant differentiële genexpressie toonden. Op de x-as staat de verhouding van het aantal genen uit de dataset dat geassocieerd is met de specifieke GO-term ten opzichte van het totale aantal genen binnen de analyse(GeneRatio). De grootte van de punten geeft het aantal genen (Count) weer en de kleur geeft de aangepaste p-waarde (p.adjust) aan. De analyse laat zien dat met name processen die te maken hebben met de immuunrespons significant verrijkt zijn, zoals de lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation
+In [Figuur 2](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot van de Gene Ontology (GO) analyse van de 4.572 genen die significant differentiële genexpressie toonden. Op de x-as staat de verhouding van het aantal genen uit de dataset dat geassocieerd is met de specifieke GO-term ten opzichte van het totale aantal genen binnen de analyse(GeneRatio). De grootte van de punten geeft het aantal genen (Count) weer en de kleur geeft de aangepaste p-waarde (p.adjust) aan. De analyse laat zien dat met name processen die te maken hebben met de immuunrespons significant verrijkt zijn, zoals de lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation.
 
-<img width="475" height="300" alt="image" src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" />
-blabla
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" width="500"/>
+
+  *<p><b>Figuur 2. Dotplot van de GO-analyse.</b> De 15 significant verrijkte biologische processen zijn weergegeven. De grootte van de bollen geeft het aantal genen (Count) weer, de kleur de aangepaste p-waarde (p.adjust) en de x-as de GeneRatio.</p>*
+</div>
 
 ---
 #### *KEGG-pathview*
