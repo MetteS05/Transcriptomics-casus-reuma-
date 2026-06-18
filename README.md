@@ -17,7 +17,9 @@ Reumatoïde Artritis (RA) is een auto-immuunziekte die gekenmerkt wordt door ont
 
 🧬 Methode
 ---
-<img width="750" height="350" alt="image" src="https://github.com/user-attachments/assets/2b2f14da-a67f-4075-a643-077ff2d002c3" /> 
+<p align="center">
+  <img width="750" height="350" alt="image" src="https://github.com/user-attachments/assets/2b2f14da-a67f-4075-a643-077ff2d002c3" />
+</p>
 
 **Figuur 1: workflow voor de Transcriptomics analyse van de genen en pathways bij RA patiënten en controle groep.** 
 
