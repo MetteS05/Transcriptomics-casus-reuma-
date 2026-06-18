@@ -30,7 +30,7 @@ Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt
 📊 Resultaten 
 ---
 #### *Volcano Plot*
-Na het uitvoeren van de differentiële expressie-analyse op basis van de count matrix, is hier een Volcano plot van gemaakt [Figuur 1](resultaten/Figuur%201.%20Volcano%20plot.pdf). Hierin is de Log<sub>2</sub>FoldChange uitgezet tegen de -Log<sub>10</sub>*P*
+Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en controlesamples op basis van de count matrix, is hier een Volcano plot van gemaakt [Figuur 1](resultaten/Figuur%201.%20Volcano%20plot.pdf). Hierin is de Log<sub>2</sub>FoldChange uitgezet tegen de -Log<sub>10</sub>*P*, de verticale stippellijnen geeft de drempel voor de log<sub>2</sub>-fold change (±1) weer en de horizontale stippellijn de significantiedrempel (p = 0,05). In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse. 
 
 <img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca" />
 
