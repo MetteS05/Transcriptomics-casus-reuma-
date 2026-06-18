@@ -1,0 +1,59 @@
+"","ID","Description","GeneRatio","Count","p.adjust"
+"hsa04621","hsa04621","NOD-like receptor signaling pathway","65/1860",65,0.000118506428256742
+"hsa04064","hsa04064","NF-kappa B signaling pathway","42/1860",42,0.000118506428256742
+"hsa04668","hsa04668","TNF signaling pathway","46/1860",46,0.000118506428256742
+"hsa05140","hsa05140","Leishmaniasis","34/1860",34,0.000118506428256742
+"hsa04657","hsa04657","IL-17 signaling pathway","38/1860",38,0.000176933976704005
+"hsa04010","hsa04010","MAPK signaling pathway","92/1860",92,0.000176933976704005
+"hsa05169","hsa05169","Epstein-Barr virus infection","68/1860",68,0.000176933976704005
+"hsa04659","hsa04659","Th17 cell differentiation","42/1860",42,0.000185624951677952
+"hsa04933","hsa04933","AGE-RAGE signaling pathway in diabetic complications","39/1860",39,0.000307476031012552
+"hsa04141","hsa04141","Protein processing in endoplasmic reticulum","59/1860",59,0.000307476031012552
+"hsa05145","hsa05145","Toxoplasmosis","41/1860",41,0.00073848736219758
+"hsa05417","hsa05417","Lipid and atherosclerosis","68/1860",68,0.00073848736219758
+"hsa05323","hsa05323","Rheumatoid arthritis","36/1860",36,0.000831795150035362
+"hsa04210","hsa04210","Apoptosis","47/1860",47,0.00106895680543371
+"hsa04658","hsa04658","Th1 and Th2 cell differentiation","35/1860",35,0.00109407150701861
+"hsa05135","hsa05135","Yersinia infection","47/1860",47,0.0011508304430925
+"hsa04620","hsa04620","Toll-like receptor signaling pathway","39/1860",39,0.00136379334735228
+"hsa05132","hsa05132","Salmonella infection","74/1860",74,0.00162488870883141
+"hsa05161","hsa05161","Hepatitis B","52/1860",52,0.00278239324992356
+"hsa05165","hsa05165","Human papillomavirus infection","93/1860",93,0.00295499759050044
+"hsa04660","hsa04660","T cell receptor signaling pathway","41/1860",41,0.00357193519636016
+"hsa04820","hsa04820","Cytoskeleton in muscle cells","68/1860",68,0.0048893145586884
+"hsa05167","hsa05167","Kaposi sarcoma-associated herpesvirus infection","59/1860",59,0.0048893145586884
+"hsa05162","hsa05162","Measles","44/1860",44,0.0048893145586884
+"hsa05219","hsa05219","Bladder cancer","18/1860",18,0.00523523314330276
+"hsa04974","hsa04974","Protein digestion and absorption","35/1860",35,0.00643442924827593
+"hsa05134","hsa05134","Legionellosis","22/1860",22,0.00759429081011865
+"hsa04625","hsa04625","C-type lectin receptor signaling pathway","35/1860",35,0.00893007121945537
+"hsa05235","hsa05235","PD-L1 expression and PD-1 checkpoint pathway in cancer","31/1860",31,0.00915348760731944
+"hsa05144","hsa05144","Malaria","20/1860",20,0.00915348760731944
+"hsa05221","hsa05221","Acute myeloid leukemia","25/1860",25,0.00925213195299061
+"hsa05168","hsa05168","Herpes simplex virus 1 infection","53/1860",53,0.0124105946889896
+"hsa05321","hsa05321","Inflammatory bowel disease","24/1860",24,0.0130965416700244
+"hsa05152","hsa05152","Tuberculosis","53/1860",53,0.0134071053911136
+"hsa05164","hsa05164","Influenza A","51/1860",51,0.013530026103678
+"hsa04144","hsa04144","Endocytosis","69/1860",69,0.0152734065578454
+"hsa05120","hsa05120","Epithelial cell signaling in Helicobacter pylori infection","25/1860",25,0.0158111359620478
+"hsa04380","hsa04380","Osteoclast differentiation","43/1860",43,0.0162149849494856
+"hsa04140","hsa04140","Autophagy - animal","49/1860",49,0.0218265697077637
+"hsa04071","hsa04071","Sphingolipid signaling pathway","38/1860",38,0.0256345863199766
+"hsa04919","hsa04919","Thyroid hormone signaling pathway","37/1860",37,0.0294587903648644
+"hsa00511","hsa00511","Other glycan degradation","9/1860",9,0.0318093809001888
+"hsa05166","hsa05166","Human T-cell leukemia virus 1 infection","61/1860",61,0.0318093809001888
+"hsa05224","hsa05224","Breast cancer","43/1860",43,0.0318093809001888
+"hsa05142","hsa05142","Chagas disease","32/1860",32,0.0318093809001888
+"hsa01522","hsa01522","Endocrine resistance","31/1860",31,0.0318093809001888
+"hsa05010","hsa05010","Alzheimer disease","98/1860",98,0.0318093809001888
+"hsa04622","hsa04622","RIG-I-like receptor signaling pathway","24/1860",24,0.0337577442093153
+"hsa04722","hsa04722","Neurotrophin signaling pathway","36/1860",36,0.0337577442093153
+"hsa04061","hsa04061","Viral protein interaction with cytokine and cytokine receptor","31/1860",31,0.0339532007669049
+"hsa04640","hsa04640","Hematopoietic cell lineage","31/1860",31,0.0339532007669049
+"hsa04672","hsa04672","Intestinal immune network for IgA production","18/1860",18,0.0367782257948161
+"hsa04120","hsa04120","Ubiquitin mediated proteolysis","41/1860",41,0.0371866985665348
+"hsa05212","hsa05212","Pancreatic cancer","25/1860",25,0.0371866985665348
+"hsa00920","hsa00920","Sulfur metabolism","6/1860",6,0.0381923213679278
+"hsa04066","hsa04066","HIF-1 signaling pathway","33/1860",33,0.0415258180915248
+"hsa04148","hsa04148","Efferocytosis","44/1860",44,0.0470648303971284
+"hsa04330","hsa04330","Notch signaling pathway","21/1860",21,0.0470654931252606
