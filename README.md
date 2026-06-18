@@ -30,9 +30,10 @@ Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt
 📊 Resultaten 
 ---
 #### *Volcano Plot*
-Na het uitvoeren van de differentiële expressie-analyse op basis van de count matrix, is hier een Volcano plot van gemaakt (Figuur 1) 
+Na het uitvoeren van de differentiële expressie-analyse op basis van de count matrix, is hier een Volcano plot van gemaakt [Figuur 1](resultaten/Figuur%201.%20Volcano%20plot.pdf)
+
 <img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca" />
-blabla
+
 
 ---
 #### *GO Analyse* 
