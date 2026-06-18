@@ -28,5 +28,7 @@ Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt
  
 📊 Resultaten 
 ---
+
+
 📌 Conclusie
 ---
