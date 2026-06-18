@@ -28,16 +28,19 @@ Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt
  
 📊 Resultaten 
 ---
+#### *Volcano Plot*
 <img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca" />
 
+#### *GO Analyse* 
 <img width="475" height="300" alt="image" src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" />
 
-
+#### *KEGG-pathview*
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/0da484f9-9a2d-45bb-bc1a-52167f586a13" width="49%" />
   <img src="https://github.com/user-attachments/assets/f21e78fc-e298-46e5-aaab-e62368ffa819" width="49%" />
 </div>
 
+#### *KEGG-pathway*
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/d1b6df89-a5b5-4da7-bf5a-b518287adac4" width="49%" />
   <img src="https://github.com/user-attachments/assets/bcc41cb4-35b1-4295-b7ed-fc326aebe966" width="49%" />
