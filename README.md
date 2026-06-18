@@ -24,11 +24,19 @@ Reumatoïde Artritis (RA) is een auto-immuunziekte die gekenmerkt wordt door ont
 **Figuur 1: workflow voor de Transcriptomics analyse van de genen en pathways bij RA patiënten en controle groep.** 
 
 
-Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief. Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. Met behulp van de package Rsubread (versie 2.24.0) is hierna een count matrix gemaakt, om te achterhalen hoeveel reads er per gen zijn gemapt. Aan de hand van deze matrix is de differentiële expressie-analyse uitgevoerd met de package DESeq2 (versie 1.50.2). Tijdens de analyse werd de genexpressie tussen de vrouwen met RA en de controle groep met elkaar vergeleken, om te identificeren welke genen een significant verhoogde of verlaagde expressie toonden. 
+Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief, de data zijn afkomstig uit het onderzoek van Platzer et al. (2019). Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. Met behulp van de package Rsubread (versie 2.24.0) is hierna een count matrix gemaakt, om te achterhalen hoeveel reads er per gen zijn gemapt. Aan de hand van deze matrix is de differentiële expressie-analyse uitgevoerd met de package DESeq2 (versie 1.50.2). Tijdens de analyse werd de genexpressie tussen de vrouwen met RA en de controle groep met elkaar vergeleken, om te identificeren welke genen een significant verhoogde of verlaagde expressie toonden. Om dit verschil te visualiseren is er een Volcano plot gemaakt met behulp van de package EnhancedVolcano (versie 1.28.2). Voor het in kaart brengen van de biologische processen die betrokken zijn bij de genen die significant een veranderde expressie toonde is er een Gene Ontology (GO)-analyse uitgevoerd. Hiervoor is gebruik gemaakt van de packages clusterProfiler (versie 4.18.4 ). 
  
 📊 Resultaten 
 ---
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca" />
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca" />
+
+<img width="475" height="300" alt="image" src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" />
+
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/0da484f9-9a2d-45bb-bc1a-52167f586a13" width="49%" />
+  <img src="https://github.com/user-attachments/assets/f21e78fc-e298-46e5-aaab-e62368ffa819" width="49%" />
+</div>
 
 
 📌 Conclusie
