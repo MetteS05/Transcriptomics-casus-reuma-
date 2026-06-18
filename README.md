@@ -43,7 +43,8 @@ Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en contro
 
 ---
 #### *GO Analyse* 
-In (resultaten/Figuur%GO)
+In [Figuur 2](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot van de Gene Ontology (GO) analyse van de 4.572 genen die significant differentiële genexpressie toonden. Op de x-as staat de verhouding van het aantal genen uit de dataset dat geassocieerd is met de specifieke GO-term ten opzichte van het totale aantal genen binnen de analyse(GeneRatio). De grootte van de punten geeft het aantal genen (Count) weer en de kleur geeft de aangepaste p-waarde (p.adjust) aan. De analyse laat zien dat met name processen die te maken hebben met de immuunrespons significant verrijkt zijn, zoals de lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation
+
 <img width="475" height="300" alt="image" src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" />
 blabla
 
