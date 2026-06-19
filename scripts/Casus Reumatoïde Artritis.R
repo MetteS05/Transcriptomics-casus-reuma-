@@ -1,6 +1,6 @@
 ###############################################################################
 # Transcriptomics Reumatoïde Artritis
-# Differential Expression, GO Enrichment en KEGG Pathway Analysis
+# Differentiële Expressie, GO Enrichment en KEGG Pathway Analysis
 # Reumatoïde Artritis vs Gezonde Vrouwen
 ###############################################################################
 
@@ -15,14 +15,11 @@ getwd()
 # 2. READ ALIGNMENT
 ###############################################################################
 
-# Install packages if necessary
+# Packages installeren
 BiocManager::install("Rsubread")
 
-# Load package
+# Package inladen 
 library(Rsubread)
-
-# View package documentation
-browseVignettes("Rsubread")
 
 ###############################################################################
 # 2.1 Build Reference Genome Index
@@ -38,7 +35,7 @@ buildindex(
 # 2.2 Align Reads to Reference Genome
 ###############################################################################
 
-# Control samples
+# Controle samples
 align.cntrl1 <- align(
   index = "ref_reuma",
   readfile1 = "SRR4785819_1_subset40k.fastq",
@@ -63,7 +60,7 @@ align.cntrl4 <- align(
   readfile2 = "SRR4785831_2_subset40k.fastq",
   output_file = "cntrl4.BAM")
 
-# Rheumatoid arthritis samples
+# Reumatoïde artritis samples
 align.reuma1 <- align(
   index = "ref_reuma",
   readfile1 = "SRR4785979_1_subset40k.fastq",
@@ -89,11 +86,9 @@ align.reuma4 <- align(
   output_file = "reuma4.BAM")
 
 ###############################################################################
-# 3. GENERATE COUNT MATRIX
+# 3. MAKEN VAN COUNT MATRIX
 ###############################################################################
-
-BiocManager::install("Rsamtools")
-library(Rsamtools)
+library(Rsubread)
 
 samples <- c(
   "cntrl1.BAM", "cntrl2.BAM", "cntrl3.BAM", "cntrl4.BAM",
@@ -116,7 +111,7 @@ colnames(counts) <- c(
 write.csv(counts, "reuma_countmatrix.csv")
 
 ###############################################################################
-# 4. DIFFERENTIAL EXPRESSION ANALYSIS (DESeq2)
+# 4. ANALYSE VAN DIFFERENTIËLE GENEXPRESSIE (DESeq2)
 ###############################################################################
 
 BiocManager::install("DESeq2")
@@ -145,11 +140,13 @@ rownames(treatment_table) <- c(
 
 colnames(count_matrix_RA) <- rownames(treatment_table)
 
+# 4.4 DESeqDataSet aanmaken
 dds <- DESeqDataSetFromMatrix(
   countData = count_matrix_RA,
   colData = treatment_table,
   design = ~ treatment)
 
+# 4.5 Analyse uitvoeren 
 dds <- DESeq(dds)
 
 resultaten <- results(dds)
@@ -278,3 +275,29 @@ pv_out <- pathview(
   gene.data = gene_data,
   pathway.id = top_pathway,
   species = "hsa")
+
+#inzoomen pathway
+View(kegg_df)
+
+kegg_tabel <- kegg_df[, c(
+  "ID",
+  "Description",
+  "GeneRatio",
+  "Count",
+  "p.adjust")]
+
+write.csv(kegg_tabel,
+          "kegg_df.csv",
+          row.names = TRUE)
+
+grep("Rheumatoid", kegg_df$Description, value = TRUE)
+
+grep("TNF", kegg_df$Description, value = TRUE)
+
+grep("NOD", kegg_df$Description, value = TRUE)
+
+pathview(
+  gene.data = gene_data,
+  pathway.id = "hsa05323",
+  species = "hsa")
+
