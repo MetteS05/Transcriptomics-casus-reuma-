@@ -92,3 +92,12 @@ In dit onderzoek werd de genexpressie tussen de 4 vrouwen met RA en de 4 gezonde
 
 ⚠️ **AI disclaimer**
 --- 
+Binnen dit project is AI gebruikt voor:
+
+★ Het genereren van de voorblad pagina en het workflow figuur (Figuur 1)
+
+★ Taal- en spellingscontrole voor de geschreven tekst 
+
+★ Overzichtelijk R script maken 
+
+★ Geholpen bij het schrijven van de codes in Github, zoals de opmaak en positie van de figuren en bijschriften
