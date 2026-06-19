@@ -78,7 +78,7 @@ Om de genen die significant differentieel tot expressie kwamen te koppelen aan h
 ---
 In dit onderzoek werd de genexpressie tussen de 4 vrouwen met RA en de 4 gezonde vrouwen (controles) vergeleken met behulp van de differentiële expressie analyse. Hierbij werden 4.572 genen geïdentificeerd die significant verschillend tot expressie kwamen tussen beide groepen, op basis van deze genen zijn de Gene Ontology- en KEGG-analyses gebasseerd. De GO-analyse liet zien dat vooral processen die betrokken zijn bij de immuunrespons verrijkt waren, zoals lymfocytdifferentiatie, T-celdifferentiatie en B-celactivatie. De KEGG-pathwayanalyse liet daarnaast zien dat verschillende ontstekings- en immuungerelateerde pathways significant verrijkt waren, waaronder de MAPK-, NF-κB-, TNF-, IL-17- en NOD-like receptor signaling pathways. De Pathview-visualisatie van de Rheumatoid arthritis-pathway liet zien dat meerdere genen die betrokken zijn bij reumatoïde artritis differentieel tot expressie kwamen. Zo vertoonden IL1A, IL1B, TNF en MMP3 een verhoogde expressie, terwijl IL6, IL23, CXCL8, MMP1, MMP14 en VEGFA een verlaagde expressie vertoonden. Op basis van deze resultaten kan worden geconcludeerd dat de gevonden genen en pathways voornamelijk betrokken zijn bij immuun- en ontstekingsprocessen die kenmerkend zijn voor reumatoïde artritis.
 
-**Bronnen**
+🔎 **Bronnen**
 ---
 ★ Platzer, A., Nussbaumer, T., Karonitsch, T., Smolen, J. S., & Aletaha, D. (2019). Analysis of gene expression in rheumatoid arthritis and related conditions offers insights into sex-bias, gene biotypes and co-expression patterns. PloS one, 14(7), e0219698. https://doi.org/10.1371/journal.pone.0219698
 
@@ -88,5 +88,5 @@ In dit onderzoek werd de genexpressie tussen de 4 vrouwen met RA en de 4 gezonde
 
 ★ Padyukov L. (2022). Genetics of rheumatoid arthritis. Seminars in immunopathology, 44(1), 47–62. https://doi.org/10.1007/s00281-022-00912-0
 
-**AI disclaimer**
+⚠️ **AI disclaimer**
 --- 
