@@ -8,6 +8,17 @@
 ★ *Wat is een duidelijke mappenstructuur en waarom houd je dat aan?*
 
   Een duidelijke mappenstructuur is dat alle bestanden logisch in de mappen zijn verdeeld, dit is cruciaal om bestanden gemakkelijk terug te kunnen vinden
+  Bijvoorbeeld:
+  
+  <sub>★ assets/ - Overige afbeeldingen
+
+<sub>★ data/ - De ruwe data die is gebruikt voor de Transcriptomics analyse plus de verwerkte datasets
+
+<sub>★ scripts/ - R script die gebruikt is voor de analyse en visualisatie daarvan
+
+<sub>★ resultaten/ - Output van de analyse
+
+<sub>★ referenties/ - Bronnen die zijn geraadpleegd voor het project
 
 ★ *Wat is een handige manier voor de naamgeving van bestanden en waarom?*
 
