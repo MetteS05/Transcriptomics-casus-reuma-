@@ -52,7 +52,7 @@ In [Figuur 3](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot
 </div>
 
 ---
-#### *KEGG-pathview*
+#### *KEGG-pathway analyse*
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/0da484f9-9a2d-45bb-bc1a-52167f586a13" width="49%" />
   <img src="https://github.com/user-attachments/assets/f21e78fc-e298-46e5-aaab-e62368ffa819" width="49%" />
