@@ -46,8 +46,8 @@ In [Figuur 3](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot
 <div align="center">
   <img src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" width="500"/>
  
- <sub><em><strong>Figuur 3. Dotplot van de GO-analyse.</strong> De 15 significant verrijkte biologische processen zijn weergegeven. De grootte van de punten geeft het aantal genen (Count) weer, de kleur de aangepaste p-waarde (p.adjust) en de x-as de GeneRatio.</em>
-</p> 
+ <sub><em><strong>Figuur 3. Dotplot van de GO-analyse.</strong> De 15 significant verrijkte biologische processen zijn weergegeven. De grootte van de punten geeft het aantal genen (Count) weer, de kleur de aangepaste p-waarde (p.adjust) en de x-as de GeneRatio.</em></p> 
+</div>
 
 ---
 #### *KEGG-pathway analyse*
@@ -63,6 +63,8 @@ Om inzicht te krijgen in de de biologische pathways waarin de genen die signific
 
 ---
 #### *Pathview visualisatie*
+Om de genen die significant differentieel tot expressie kwamen te koppelen aan het ziektebeeld Reumatoïde Artritis, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 5](resultaten/Figuur%202.%20hsa05323.png)
+
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/d1b6df89-a5b5-4da7-bf5a-b518287adac4" width="49%" />
   <img src="https://github.com/user-attachments/assets/bcc41cb4-35b1-4295-b7ed-fc326aebe966" width="49%" />
