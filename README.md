@@ -3,13 +3,15 @@
 
 📁 Inhoud
 ---
-★  `data/`
+★  `assets/` - Overige afbeeldingen 
 
-★ `scripts/`
+★  `data/` - De ruwe data die is gebruikt voor de Transcriptomics analyse plus de verwerkte datasets 
 
-★ `resultaten/`
+★ `scripts/` - R script die gebruikt is voor de analyse en visualisatie daarvan
 
-★ `referenties/`
+★ `resultaten/` - Output van de analyse 
+
+★ `referenties/` - Bronnen die zijn geraadpleegd voor het project
 
 📖 Inleiding 
 ---
