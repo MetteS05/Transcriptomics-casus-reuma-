@@ -98,6 +98,8 @@ Binnen dit project is AI gebruikt voor:
 
 ★ Taal- en spellingscontrole voor de geschreven tekst 
 
-★ Overzichtelijk R script maken 
+★ Geholpen bij de interpetatie van output van de analyses 
+
+★ Overzicht maken in het R script maken, zodat alles netjes en duidelijk erin staat 
 
 ★ Geholpen bij het schrijven van de codes in Github, zoals de opmaak en positie van de figuren en bijschriften
