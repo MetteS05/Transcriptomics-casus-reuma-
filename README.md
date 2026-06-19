@@ -48,17 +48,21 @@ In [Figuur 3](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot
 <div align="center">
   <img src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" width="500"/>
 
-  *<p><b>Figuur 3. Dotplot van de GO-analyse.</b> De 15 significant verrijkte biologische processen zijn weergegeven. De grootte van de bollen geeft het aantal genen (Count) weer, de kleur de aangepaste p-waarde (p.adjust) en de x-as de GeneRatio.</p>*
+  *<p><b>Figuur 3. Dotplot van de GO-analyse.</b> De 15 significant verrijkte biologische processen zijn weergegeven. De grootte van de punten geeft het aantal genen (Count) weer, de kleur de aangepaste p-waarde (p.adjust) en de x-as de GeneRatio.</p>*
 </div>
 
 ---
 #### *KEGG-pathway analyse*
-Om inzicht te krijgen in de de biologische pathways waarin de genen die significant differentiële genexpressie toonden betrokken zijn, werd er een KEGG-pathway analyse uitgevoerd. In [Figuur 4](resultaten/Figuur%202.%20KEGG%Dotplot%.png)
+Om inzicht te krijgen in de de biologische pathways waarin de genen die significant differentiële genexpressie toonden betrokken zijn, werd er een KEGG-pathway analyse uitgevoerd. In [Figuur 4](resultaten/Figuur%202.%20KEGG%Dotplot.png) is dit weergegeven als Dotplot en Barplot, uit beiden is op te nemen dat de MAPK signaling pathway, NOD-like receptor signaling pathway, NF-kappa B signaling pathway, TNF signaling pathway en IL-17 signaling pathway het meest verrijkt waren. Ook pathways die betrokken zijn bij de immuunrespons, zoals de Th17 cell differentiation en AGE-RAGE signaling pathway zijn significant verrijkt. 
 
-<div style="display: flex; gap: 10px;">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/0da484f9-9a2d-45bb-bc1a-52167f586a13" width="49%" />
   <img src="https://github.com/user-attachments/assets/f21e78fc-e298-46e5-aaab-e62368ffa819" width="49%" />
-</div>
+</p>
+
+<p align="center">
+  <em><strong>Figuur 4. KEGG-pathwayanalyse van de genen die significant differentieel tot expressie kwamen.</strong> Links is een barplot weergegeven van de tien meest verrijkte KEGG-pathways, waarbij de lengte van de balk het aantal genen (<em>Count</em>) per pathway weergeeft en de kleur de aangepaste p-waarde (<em>p.adjust</em>) aangeeft. Rechts is dezelfde analyse weergegeven als dotplot, waarbij de x-as de <em>GeneRatio</em> weergeeft, de grootte van de punten het aantal genen (<em>Count</em>) en de kleur de aangepaste p-waarde (<em>p.adjust</em>) representeert.</em>
+</p> 
 
 ---
 #### *KEGG-pathway*
