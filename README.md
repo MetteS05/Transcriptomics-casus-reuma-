@@ -61,7 +61,7 @@ Om inzicht te krijgen in de de biologische pathways waarin de genen die signific
 </p>
 
 <p align="center">
-  <em><strong>Figuur 4. KEGG-pathwayanalyse van de genen die significant differentieel tot expressie kwamen.</strong> Links is een barplot weergegeven van de tien meest verrijkte KEGG-pathways, waarbij de lengte van de balk het aantal genen (<em>Count</em>) per pathway weergeeft en de kleur de aangepaste p-waarde (<em>p.adjust</em>) aangeeft. Rechts is dezelfde analyse weergegeven als dotplot, waarbij de x-as de <em>GeneRatio</em> weergeeft, de grootte van de punten het aantal genen (<em>Count</em>) en de kleur de aangepaste p-waarde (<em>p.adjust</em>) representeert.</em>
+  <em><strong>Figuur 4. KEGG-pathwayanalyse van de genen die significant differentieel tot expressie kwamen.</strong> Links is een barplot weergegeven van de tien meest verrijkte KEGG-pathways, waarbij de lengte van de balk het aantal genen (<em>Count</em>) per pathway weergeeft en de kleur de aangepaste p-waarde (<em>p.adjust</em>) aangeeft. Rechts is dezelfde analyse weergegeven als dotplot, waarbij de x-as de <em>GeneRatio</em> weergeeft, de grootte van de punten het aantal genen (<em>Count</em>) en de kleur de aangepaste p-waarde (<em>p.adjust</em>).</em>
 </p> 
 
 ---
