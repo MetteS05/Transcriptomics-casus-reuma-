@@ -63,12 +63,15 @@ Om inzicht te krijgen in de de biologische pathways waarin de genen die signific
 
 ---
 #### *Pathview visualisatie*
-Om de genen die significant differentieel tot expressie kwamen te koppelen aan het ziektebeeld Reumatoïde Artritis, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 5](resultaten/Figuur%202.%20hsa05323.png)
+Om de genen die significant differentieel tot expressie kwamen te koppelen aan het ziektebeeld Reumatoïde Artritis, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 5](resultaten/Figuur%202%KEGG%pathway%Reumatoïde%Artritis.png). Genen die een verhoogde expressie toonden zijn rood weergegeven, en genen met een verlaagde expressie groen. Genen zoals IL1A, IL1B, TNF en MMP3 vertoonde hier een verhoogde expressie, onder andere IL6, IL23, CXCL8, MMP1, MMP14 en VEGFA vertoonde een verlaagde expressie. Deze genen waren verdeeld over verschillende onderdelen van de pathway, waaronder cytokinesignalering en activatie van synoviale fibroblasten.
 
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/d1b6df89-a5b5-4da7-bf5a-b518287adac4" width="49%" />
   <img src="https://github.com/user-attachments/assets/bcc41cb4-35b1-4295-b7ed-fc326aebe966" width="49%" />
 </div>
+<p align="center">
+ <sub><em><strong>Figuur 5. KEGG Rheumatoid arthritis-pathway (hsa05323).</strong> De differentieel tot expressie gebrachte genen gevisualiseerd met Pathview. Rood geeft opgereguleerde genen weer en groen neergereguleerde genen weergeeft. Niet ingekleurde genen waren niet differentieel tot expressie gebracht of werden niet gemapt op de pathway. </em>
+</p> 
 
 
 📌 Conclusie
