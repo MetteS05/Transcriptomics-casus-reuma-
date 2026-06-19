@@ -1,4 +1,4 @@
-**Competentie beheren** 
+🗂️ **Competentie beheren** 
 ---
 
 ★ *Waarom is dit een belangrijk onderdeel van onderzoek doen?*
