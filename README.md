@@ -32,11 +32,11 @@ Reumatoïde Artritis (RA) is een auto-immuunziekte die gekenmerkt wordt door ont
 
 Om te onderzoeken welke genen en pathways zijn betrokken bij RA. Is er een biopt genomen uit het gewrichtsslijmvlies van 4 vrouwen met RA en 4 vrouwen zonder RA (controle groep). De vrouwen met RA testen positief op ACPA en de vrouwen zonder negatief, de data zijn afkomstig uit het onderzoek van Platzer et al. (2019). 
 
-Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0), om het alignen snel en gemakkelijk te laten verlopen. Met behulp van de package Rsubread (versie 2.24.0) is hierna een count matrix gemaakt, om te achterhalen hoeveel reads er per gen zijn gemapt. 
+Allereerst werd er met R (versie 4.5.2) het humane referentiegenoom GRCh38.p14 (accesion number: GCF_000001405.40) geïndexeerd met behulp van het Rsubread package (versie 2.24.0, Liao et al. 2019), om het alignen snel en gemakkelijk te laten verlopen. Met behulp van de package Rsubread (versie 2.24.0) is hierna een count matrix gemaakt, om te achterhalen hoeveel reads er per gen zijn gemapt. 
 
-Aan de hand van deze matrix is de differentiële expressie-analyse uitgevoerd met de package DESeq2 (versie 1.50.2). Tijdens de analyse werd de genexpressie tussen de vrouwen met RA en de controle groep met elkaar vergeleken, om te identificeren welke genen een significant verhoogde of verlaagde expressie toonden. Om dit verschil te visualiseren is er een Volcano plot gemaakt met behulp van de package EnhancedVolcano (versie 1.28.2). 
+Aan de hand van deze matrix is de differentiële expressie-analyse uitgevoerd met de package DESeq2 (versie 1.50.2, Love et al., 2014). Tijdens de analyse werd de genexpressie tussen de vrouwen met RA en de controle groep met elkaar vergeleken, om te identificeren welke genen een significant verhoogde of verlaagde expressie toonden. De genen werden als significant beschouwd wanneer padj < 0,5 en Log<sub>2</sub>FoldChange > 1, deze, de p-waarden werden gecorrigeerd met multiple testing correctie. Om dit verschil te visualiseren is er een Volcano plot gemaakt met behulp van de package EnhancedVolcano (versie 1.28.2). 
 
-Voor het in kaart brengen van de biologische processen die betrokken zijn bij de genen die significant een veranderde expressie toonde is er een Gene Ontology (GO)-analyse uitgevoerd. Hiervoor is gebruik gemaakt van de packages clusterProfiler (versie 4.18.4 ). Als laatste is de KEGG-pathway analyse gebruikt om de significant meer aanwezige pathways te identificeren met behulp van de package Pathview (versie 1.50.0)
+Voor het in kaart brengen van de biologische processen die betrokken zijn bij de genen die significant een veranderde expressie toonde is er een Gene Ontology (GO)-analyse uitgevoerd. Hiervoor is gebruik gemaakt van de packages clusterProfiler (versie 4.18.4, Wu et al. 2021). Als laatste is de KEGG-pathway analyse gebruikt om de significant meer aanwezige pathways te identificeren met behulp van de package Pathview (versie 1.50.0, Luo & Brouwer 2013)
  
 📊 Resultaten 
 ---
@@ -99,6 +99,16 @@ In dit onderzoek werd de genexpressie tussen de 4 vrouwen met RA en de 4 gezonde
 ★ Kolarz, K., Targońska-Stępniak, B., & Majdan, M. (2018). Wiadomosci lekarskie (Warsaw, Poland : 1960), 71(5), 1061–1065.
 
 ★ Padyukov L. (2022). Genetics of rheumatoid arthritis. Seminars in immunopathology, 44(1), 47–62. https://doi.org/10.1007/s00281-022-00912-0
+
+**R-Packages**
+
+★ Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome biology, 15(12), 550. https://doi.org/10.1186/s13059-014-0550-8
+
+★ Liao, Y., Smyth, G. K., & Shi, W. (2019). The R package Rsubread is easier, faster, cheaper and better for alignment and quantification of RNA sequencing reads. Nucleic acids research, 47(8), e47. https://doi.org/10.1093/nar/gkz114
+
+★ Wu, T., Hu, E., Xu, S., Chen, M., Guo, P., Dai, Z., Feng, T., Zhou, L., Tang, W., Zhan, L., Fu, X., Liu, S., Bo, X., & Yu, G. (2021). clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. Innovation (Cambridge (Mass.)), 2(3), 100141. https://doi.org/10.1016/j.xinn.2021.100141
+
+★ Luo, W., & Brouwer, C. (2013). Pathview: an R/Bioconductor package for pathway-based data integration and visualization. Bioinformatics (Oxford, England), 29(14), 1830–1831. https://doi.org/10.1093/bioinformatics/btt285
 
 ⚠️ **AI disclaimer**
 --- 
