@@ -3,7 +3,7 @@
 
 ★ *Waarom is dit een belangrijk onderdeel van onderzoek doen?*
 
-  Het goed beheren van je data tijdens het onderzoek is erg belangrijk, voor de betrouwbaarheid en reproduceerbaarheid van je onderzoek ook brengt het veel overzicht met zich    mee. Door alles goed op te slaan en duidelijk te ordenen raak je niks kwijt en voorkom je fouten. 
+  Het goed beheren van je data tijdens het onderzoek is erg belangrijk, voor de betrouwbaarheid en reproduceerbaarheid van je onderzoek ook brengt het veel overzicht met zich    mee. Door alles goed op te slaan en duidelijk te ordenen raak je niks kwijt en voorkom je fouten. Daarnaast kunnen onderzoekers later beter terugvinden welke data en analyses zijn gebruikt en hoe bepaalde resultaten verkregen zijn. Dit maakt het ook makkelijker voor andere onderzoekers om het onderzoek te controleren of te herhalen.
 
 ★ *Wat is een duidelijke mappenstructuur en waarom houd je dat aan?*
 
