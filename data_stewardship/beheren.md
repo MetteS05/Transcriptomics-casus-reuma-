@@ -40,7 +40,11 @@
 
 ★ *Hoe zou je omgaan met gevoelige of persoonlijke data?*
 
-Ik zou gevoelige gegevens veilig opgeslaan en zomaar openbaar delen. Als ik het wel zou publiceren zou ik persoonsgegevens anonimiseren of alleen toegankelijkheid voor bevoegde personen.
+Persoonsgegevens moeten zorgvuldig worden behandeld volgens de AVG (Algemene Verordening Gegevensbescherming). Gegevens zoals namen, patiëntnummers, contactgegevens en andere informatie waarmee personen direct of indirect geïdentificeerd kunnen worden, mogen niet zomaar openbaar worden gemaakt, bijvoorbeeld via een openbare GitHub-pagina.
+
+Veilig opslaan betekent dat gevoelige gegevens worden bewaard op een door de instelling goedgekeurde en beveiligde omgeving, waarbij alleen bevoegde personen toegang hebben. Ook moet er alleen informatie worden opgeslagen die noodzakelijk is voor het onderzoeksdoel.
+
+Op een eigen of openbare omgeving zou ik daarom geen herleidbare persoonsgegevens of andere gevoelige onderzoeksgegevens opslaan zonder dat hiervoor toestemming is gegeven. Niet-gevoelige bestanden, zoals eigen scripts en analyses van openbare datasets, kunnen wel op GitHub worden geplaatst.
 
 ★ *Wat is het belang van open data en het publiceren van datasets?* 
 
