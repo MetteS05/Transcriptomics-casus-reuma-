@@ -22,7 +22,17 @@
 
 ★ *Wat is een handige manier voor de naamgeving van bestanden en waarom?*
 
-  Ik vind het gemakkelijk om "_" als spaties te gebruiken en dezelfde afkortingen voor woorden, zoals RA voor Reumatoïde Artritis 
+<sub>★ Gebruik een vaste structuur voor bestandsnamen
+
+<sub>★ Zet eventueel een datum in de naam, zodat bestanden automatisch chronologisch sorteren
+
+<sub>★ Gebruik versienummers, bijvoorbeeld V1, V2, V3
+
+<sub>★ Zorg dat de naam meteen duidelijk maakt wat het bestand bevat
+
+<sub>★ Ik vind het gemakkelijk om "_" als spaties te gebruiken
+
+<sub>★ Steeds dezelfde afkortingen voor woorden gebruiken, zoals RA voor Reumatoïde Artritis 
 
 ★ *Wat houdt versiebeheer in en waarom doe je dit?*
 
