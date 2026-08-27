@@ -43,6 +43,11 @@ Voor het in kaart brengen van de biologische processen die betrokken zijn bij de
 #### *Identificatie van de 4.572 genen die significant differentiële expressie toonden*
 Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en controlesamples op basis van de count matrix, is hier een Volcano plot van gemaakt [Figuur 2](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/3c7df2c048c839a4d41402d73859a5fb100874a2/resultaten/Figuur%201.%20Volcano%20plot.pdf). Hierin is de Log<sub>2</sub>FoldChange uitgezet tegen de -Log<sub>10</sub>*P*, de verticale stippellijnen geeft de drempel voor de log<sub>2</sub>-fold change (±1) weer en de horizontale stippellijn de significantiedrempel (p = 0,05). In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse. 
 
+<br>
+<p align="center">
+  <strong> 4.572 genen vertonen significante differentiële expressie tussen RA en controles</strong>
+</p>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca">
 </p>
@@ -50,11 +55,14 @@ Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en contro
   <sub><em><strong>Figuur 2.</strong> De x-as geeft de log<sub>2</sub>-fold change weer en de y-as de −log<sub>10</sub>(p-waarde). Genen met een significante aangepaste p-waarde (padj &lt; 0,05) en |log<sub>2</sub>FC| &gt; 1 zijn weergegeven in rood.</em>
 </p>
 
-
 ---
 #### *Immuungerelateerde processen significant verrijkt* 
 In [Figuur 3](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/3c7df2c048c839a4d41402d73859a5fb100874a2/resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot van de Gene Ontology (GO) analyse van de 4.572 genen die significant differentiële genexpressie toonden. Op de x-as staat de verhouding van het aantal genen uit de dataset dat geassocieerd is met de specifieke GO-term ten opzichte van het totale aantal genen binnen de analyse(GeneRatio). De grootte van de punten geeft het aantal genen (Count) weer en de kleur geeft de aangepaste p-waarde (p.adjust) aan. De analyse laat zien dat met name processen die te maken hebben met de immuunrespons significant verrijkt zijn, zoals de lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation.
 
+<br>
+<p align="center">
+  <strong> </strong>
+</p>
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8"/>
  <p align="center">
