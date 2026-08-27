@@ -40,11 +40,11 @@ Voor het in kaart brengen van de biologische processen die betrokken zijn bij de
  
 📊 Resultaten 
 ---
-#### *Volcano Plot*
+#### *Identificatie van genen die significant differentiële expressie toonden*
 Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en controlesamples op basis van de count matrix, is hier een Volcano plot van gemaakt [Figuur 2](resultaten/Figuur%201.%20Volcano%20plot.pdf). Hierin is de Log<sub>2</sub>FoldChange uitgezet tegen de -Log<sub>10</sub>*P*, de verticale stippellijnen geeft de drempel voor de log<sub>2</sub>-fold change (±1) weer en de horizontale stippellijn de significantiedrempel (p = 0,05). In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse. 
 
 <p align="center">
-  <img width="500" alt="Volcano plot" src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca">
+  <img src="https://github.com/user-attachments/assets/cfadfa68-9207-4063-838b-7db719d197ca">
 </p>
 <p align="center">
   <sub><em><strong>Figuur 2.</strong> De x-as geeft de log<sub>2</sub>-fold change weer en de y-as de −log<sub>10</sub>(p-waarde). Genen met een significante aangepaste p-waarde (padj &lt; 0,05) en |log<sub>2</sub>FC| &gt; 1 zijn weergegeven in rood.</em>
@@ -52,12 +52,12 @@ Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en contro
 
 
 ---
-#### *GO Analyse* 
+#### *Immuun gerelateerde processen significant verrijkt* 
 In [Figuur 3](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot van de Gene Ontology (GO) analyse van de 4.572 genen die significant differentiële genexpressie toonden. Op de x-as staat de verhouding van het aantal genen uit de dataset dat geassocieerd is met de specifieke GO-term ten opzichte van het totale aantal genen binnen de analyse(GeneRatio). De grootte van de punten geeft het aantal genen (Count) weer en de kleur geeft de aangepaste p-waarde (p.adjust) aan. De analyse laat zien dat met name processen die te maken hebben met de immuunrespons significant verrijkt zijn, zoals de lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8" width="500"/>
- 
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8"/>
+ <p align="center">
  <sub><em><strong>Figuur 3. Dotplot van de GO-analyse.</strong> De 15 significant verrijkte biologische processen zijn weergegeven. De grootte van de punten geeft het aantal genen (Count) weer, de kleur de aangepaste p-waarde (p.adjust) en de x-as de GeneRatio.</em></p> 
 </div>
 
@@ -78,9 +78,7 @@ Om inzicht te krijgen in de de biologische pathways waarin de genen die signific
 Om de genen die significant differentieel tot expressie kwamen te koppelen aan het ziektebeeld Reumatoïde Artritis, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 5](resultaten/Figuur%202%KEGG%pathway%Reumatoïde%Artritis.png). Genen die een verhoogde expressie toonden zijn rood weergegeven, en genen met een verlaagde expressie groen. Genen zoals IL1A, IL1B, TNF en MMP3 vertoonde hier een verhoogde expressie, onder andere IL6, IL23, CXCL8, MMP1, MMP14 en VEGFA vertoonde een verlaagde expressie. Deze genen waren verdeeld over verschillende onderdelen van de pathway, waaronder cytokinesignalering en activatie van synoviale fibroblasten.
 
 <div style="display: flex; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/d1b6df89-a5b5-4da7-bf5a-b518287adac4" width="49%" />
-  <img src="https://github.com/user-attachments/assets/bcc41cb4-35b1-4295-b7ed-fc326aebe966" width="49%" />
-</div>
+  <img src="https://github.com/user-attachments/assets/d1b6df89-a5b5-4da7-bf5a-b518287adac4"/>
 <p align="center">
  <sub><em><strong>Figuur 5. KEGG Rheumatoid arthritis-pathway (hsa05323).</strong> De differentieel tot expressie gebrachte genen gevisualiseerd met Pathview. Rood geeft opgereguleerde genen weer en groen neergereguleerde genen weergeeft. Niet ingekleurde genen waren niet differentieel tot expressie gebracht of werden niet gemapt op de pathway. </em>
 </p> 
