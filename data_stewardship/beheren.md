@@ -36,7 +36,7 @@
 
 ★ *Wat houdt versiebeheer in en waarom doe je dit?*
 
-  Versiebeheer houdt in dat je wijzigingen in bestanden bijhoudt, zoals hier op GitHub ook gedaan wordt. Hierdoor kun je altijd teruggaan naar een eerdere versie als er     iets misgaat. Ook maakt het samenwerken makkelijker, omdat iedereen de up-to-date versie gebruikt.
+  Versiebeheer houdt in dat je wijzigingen in bestanden bijhoudt, zoals hier op GitHub ook gedaan wordt. Hierdoor kun je altijd teruggaan naar een eerdere versie als er     iets misgaat. Ook maakt het samenwerken makkelijker, omdat iedereen de up-to-date versie gebruikt. Hierdoor wordt de analyse beter reproduceerbaar en wordt voorkomen dat wijzigingen verloren gaan.
 
 ★ *Hoe zou je omgaan met gevoelige of persoonlijke data?*
 
