@@ -40,7 +40,7 @@ Voor het in kaart brengen van de biologische processen die betrokken zijn bij de
  
 📊 Resultaten 
 ---
-#### *Identificatie van genen die significant differentiële expressie toonden*
+#### *Identificatie van de 4.572 genen die significant differentiële expressie toonden*
 Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en controlesamples op basis van de count matrix, is hier een Volcano plot van gemaakt [Figuur 2](resultaten/Figuur%201.%20Volcano%20plot.pdf). Hierin is de Log<sub>2</sub>FoldChange uitgezet tegen de -Log<sub>10</sub>*P*, de verticale stippellijnen geeft de drempel voor de log<sub>2</sub>-fold change (±1) weer en de horizontale stippellijn de significantiedrempel (p = 0,05). In totaal zijn er 29.407 genen geanalyseerd, hiervan zijn er 4.572 genen die een significant verschil toonde tussen de RA- en controlesamples. Deze 4.572 genen worden verder gebruikt voor de GO analyse en KEGG pathway analyse. 
 
 <p align="center">
@@ -52,7 +52,7 @@ Na het uitvoeren van de differentiële expressie-analyse tussen de RA- en contro
 
 
 ---
-#### *Immuun gerelateerde processen significant verrijkt* 
+#### *Immuungerelateerde processen significant verrijkt* 
 In [Figuur 3](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot van de Gene Ontology (GO) analyse van de 4.572 genen die significant differentiële genexpressie toonden. Op de x-as staat de verhouding van het aantal genen uit de dataset dat geassocieerd is met de specifieke GO-term ten opzichte van het totale aantal genen binnen de analyse(GeneRatio). De grootte van de punten geeft het aantal genen (Count) weer en de kleur geeft de aangepaste p-waarde (p.adjust) aan. De analyse laat zien dat met name processen die te maken hebben met de immuunrespons significant verrijkt zijn, zoals de lymphocyte differentiation, leukocyte mediated immunity, T cell differentiation en B cell activation.
 
 <div style="display: flex; gap: 10px;">
@@ -62,7 +62,7 @@ In [Figuur 3](resultaten/Figuur%202.%20DotPlot%20GO%20analyse.png) is de Dotplot
 </div>
 
 ---
-#### *KEGG-pathway analyse*
+#### *Ontstekings- en immuungerelateerde pathways significant verrijkt*
 Om inzicht te krijgen in de de biologische pathways waarin de genen die significant differentiële genexpressie toonden betrokken zijn, werd er een KEGG-pathway analyse uitgevoerd. In [Figuur 4](resultaten/Figuur%202.%20KEGG%Dotplot.png) is dit weergegeven als Dotplot en Barplot, uit beiden is op te nemen dat de MAPK signaling pathway, NOD-like receptor signaling pathway, NF-kappa B signaling pathway, TNF signaling pathway en IL-17 signaling pathway het meest verrijkt waren. Ook pathways die betrokken zijn bij de immuunrespons, zoals de Th17 cell differentiation en AGE-RAGE signaling pathway zijn significant verrijkt. 
 
 <p align="center">
@@ -74,8 +74,8 @@ Om inzicht te krijgen in de de biologische pathways waarin de genen die signific
 </p> 
 
 ---
-#### *Pathview visualisatie*
-Om de genen die significant differentieel tot expressie kwamen te koppelen aan het ziektebeeld Reumatoïde Artritis, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 5](resultaten/Figuur%202%KEGG%pathway%Reumatoïde%Artritis.png). Genen die een verhoogde expressie toonden zijn rood weergegeven, en genen met een verlaagde expressie groen. Genen zoals IL1A, IL1B, TNF en MMP3 vertoonde hier een verhoogde expressie, onder andere IL6, IL23, CXCL8, MMP1, MMP14 en VEGFA vertoonde een verlaagde expressie. Deze genen waren verdeeld over verschillende onderdelen van de pathway, waaronder cytokinesignalering en activatie van synoviale fibroblasten.
+#### *Verschillende genen binnen de RA-pathway toonde differentiële expressie*
+De GO-analyse liet voornamelijk verrijking zien van immuungerelateerde biologische processen. Om vervolgens te bepalen in welke specifieke biologische pathways deze processen en de bijbehorende genen samenkwamen, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 5](resultaten/Figuur%202%KEGG%pathway%Reumatoïde%Artritis.png). Genen die een verhoogde expressie toonden zijn rood weergegeven, en genen met een verlaagde expressie groen. Genen zoals IL1A, IL1B, TNF en MMP3 vertoonden hier een verhoogde expressie, daarentegen vertoonden onder andere IL6, IL23, CXCL8, MMP1, MMP14 en VEGFA een verlaagde expressie. Deze genen waren verdeeld over verschillende onderdelen van de pathway, waaronder cytokinesignalering en activatie van synoviale fibroblasten.
 
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/d1b6df89-a5b5-4da7-bf5a-b518287adac4"/>
