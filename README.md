@@ -63,7 +63,7 @@ In [Figuur 3](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/3c7d
 
 ---
 #### *Ontstekings- en immuungerelateerde pathways significant verrijkt*
-Om inzicht te krijgen in de de biologische pathways waarin de genen die significant differentiële genexpressie toonden betrokken zijn, werd er een KEGG-pathway analyse uitgevoerd. In [Figuur 4](resultaten/Figuur%202.%20KEGG%Dotplot.png) is dit weergegeven als Dotplot en Barplot, uit beiden is op te nemen dat de MAPK signaling pathway, NOD-like receptor signaling pathway, NF-kappa B signaling pathway, TNF signaling pathway en IL-17 signaling pathway het meest verrijkt waren. Ook pathways die betrokken zijn bij de immuunrespons, zoals de Th17 cell differentiation en AGE-RAGE signaling pathway zijn significant verrijkt. 
+Om inzicht te krijgen in de de biologische pathways waarin de genen die significant differentiële genexpressie toonden betrokken zijn, werd er een KEGG-pathway analyse uitgevoerd. In [Figuur 4](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/7600f56c8c34f21c56bb1cc4a63dd1b120a82672/resultaten/Figuur%203.%20KEGG%20dotplot.png) en [Figuur 5]is dit weergegeven als Dotplot en Barplot, uit beiden is op te nemen dat de MAPK signaling pathway, NOD-like receptor signaling pathway, NF-kappa B signaling pathway, TNF signaling pathway en IL-17 signaling pathway het meest verrijkt waren. Ook pathways die betrokken zijn bij de immuunrespons, zoals de Th17 cell differentiation en AGE-RAGE signaling pathway zijn significant verrijkt. 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0da484f9-9a2d-45bb-bc1a-52167f586a13" width="49%" />
@@ -75,12 +75,12 @@ Om inzicht te krijgen in de de biologische pathways waarin de genen die signific
 
 ---
 #### *Verschillende genen binnen de RA-pathway toonde differentiële expressie*
-De GO-analyse liet voornamelijk verrijking zien van immuungerelateerde biologische processen. Om vervolgens te bepalen in welke specifieke biologische pathways deze processen en de bijbehorende genen samenkwamen, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 5](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/db954c243c1dde1a254fadcf70d505af08eb0dbb/resultaten/KEGG%20pathway%20Reumato%C3%AFde%20Artritis.png). Genen die een verhoogde expressie toonden zijn rood weergegeven, en genen met een verlaagde expressie groen. Genen zoals IL1A, IL1B, TNF en MMP3 vertoonden hier een verhoogde expressie, daarentegen vertoonden onder andere IL6, IL23, CXCL8, MMP1, MMP14 en VEGFA een verlaagde expressie. Deze genen waren verdeeld over verschillende onderdelen van de pathway, waaronder cytokinesignalering en activatie van synoviale fibroblasten.
+De GO-analyse liet voornamelijk verrijking zien van immuungerelateerde biologische processen. Om vervolgens te bepalen in welke specifieke biologische pathways deze processen en de bijbehorende genen samenkwamen, werd de Rheumatoid arthritis-pathway (KEGG: hsa05323) gevisualiseerd met Pathview [Figuur 6](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/db954c243c1dde1a254fadcf70d505af08eb0dbb/resultaten/KEGG%20pathway%20Reumato%C3%AFde%20Artritis.png). Genen die een verhoogde expressie toonden zijn rood weergegeven, en genen met een verlaagde expressie groen. Genen zoals IL1A, IL1B, TNF en MMP3 vertoonden hier een verhoogde expressie, daarentegen vertoonden onder andere IL6, IL23, CXCL8, MMP1, MMP14 en VEGFA een verlaagde expressie. Deze genen waren verdeeld over verschillende onderdelen van de pathway, waaronder cytokinesignalering en activatie van synoviale fibroblasten.
 
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/d1b6df89-a5b5-4da7-bf5a-b518287adac4"/>
 <p align="center">
- <sub><em><strong>Figuur 5. KEGG Rheumatoid arthritis-pathway (hsa05323).</strong> De differentieel tot expressie gebrachte genen gevisualiseerd met Pathview. Rood geeft opgereguleerde genen weer en groen neergereguleerde genen weergeeft. Niet ingekleurde genen waren niet differentieel tot expressie gebracht of werden niet gemapt op de pathway. </em>
+ <sub><em><strong>Figuur 6. KEGG Rheumatoid arthritis-pathway (hsa05323).</strong> De differentieel tot expressie gebrachte genen gevisualiseerd met Pathview. Rood geeft opgereguleerde genen weer en groen neergereguleerde genen weergeeft. Niet ingekleurde genen waren niet differentieel tot expressie gebracht of werden niet gemapt op de pathway. </em>
 </p> 
 
 
