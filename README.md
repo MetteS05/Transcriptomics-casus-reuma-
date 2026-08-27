@@ -65,13 +65,23 @@ In [Figuur 3](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/3c7d
 #### *Ontstekings- en immuungerelateerde pathways significant verrijkt*
 Om inzicht te krijgen in de de biologische pathways waarin de genen die significant differentiële genexpressie toonden betrokken zijn, werd er een KEGG-pathway analyse uitgevoerd. In [Figuur 4](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/7600f56c8c34f21c56bb1cc4a63dd1b120a82672/resultaten/Figuur%203.%20KEGG%20dotplot.png) en [Figuur 5](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/87d31788cc54aa5f852d9a07155f4734367decd4/resultaten/Figuur%204.%20KEGG%20barplot.png) is dit weergegeven als Dotplot en Barplot, uit beiden is op te nemen dat de MAPK signaling pathway, NOD-like receptor signaling pathway, NF-kappa B signaling pathway, TNF signaling pathway en IL-17 signaling pathway het meest verrijkt waren. Ook pathways die betrokken zijn bij de immuunrespons, zoals de Th17 cell differentiation en AGE-RAGE signaling pathway zijn significant verrijkt. 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f21e78fc-e298-46e5-aaab-e62368ffa819" width="49%" />
-  <img src="https://github.com/user-attachments/assets/0da484f9-9a2d-45bb-bc1a-52167f586a13" width="49%" />
-</p>
-<p align="center">
-  <sub><em><strong>Figuur 4. KEGG-pathwayanalyse van de genen die significant differentieel tot expressie kwamen.</strong> Links is een barplot weergegeven van de tien meest verrijkte KEGG-pathways, waarbij de lengte van de balk het aantal genen (<em>Count</em>) per pathway weergeeft en de kleur de aangepaste p-waarde (<em>p.adjust</em>) aangeeft. Rechts is dezelfde analyse weergegeven als dotplot, waarbij de x-as de <em>GeneRatio</em> weergeeft, de grootte van de punten het aantal genen (<em>Count</em>) en de kleur de aangepaste p-waarde (<em>p.adjust</em>).</em>
-</p> 
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;">
+
+  <div style="width: 49%; text-align: center;">
+    <img src="https://github.com/user-attachments/assets/f21e78fc-e298-46e5-aaab-e62368ffa819" width="100%" />
+    <p>
+      <sub><em><strong>Figuur 4.</strong> Barplot van de tien meest verrijkte KEGG-pathways. De lengte van de balk geeft het aantal genen (<em>Count</em>) per pathway weer en de kleur geeft de aangepaste p-waarde (<em>p.adjust</em>) aan.</em></sub>
+    </p>
+  </div>
+
+  <div style="width: 49%; text-align: center;">
+    <img src="https://github.com/user-attachments/assets/0da484f9-9a2d-45bb-bc1a-52167f586a13" width="100%" />
+    <p>
+      <sub><em><strong>Figuur 5.</strong> Dotplot van de tien meest verrijkte KEGG-pathways. De x-as geeft de <em>GeneRatio</em> weer, de grootte van de punten het aantal genen (<em>Count</em>) en de kleur de aangepaste p-waarde (<em>p.adjust</em>).</em></sub>
+    </p>
+  </div>
+
+</div>
 
 ---
 #### *Verschillende genen binnen de RA-pathway toonde differentiële expressie*
