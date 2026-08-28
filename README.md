@@ -61,7 +61,7 @@ In [Figuur 3](https://github.com/MetteS05/Transcriptomics-casus-reuma-/blob/3c7d
 
 <br>
 <p align="center">
-  <strong> </strong>
+  <strong>Significante verrijking van immuungerelateerde biologische processen</strong>
 </p>
 <div style="display: flex; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/6237665b-1d11-4a45-b34c-40599292d7e8"/>
